@@ -4,14 +4,14 @@ lmstudio:
 # Put the exact model IDs returned by: curl http://localhost:1234/v1/models
 roles:
   manager:
-    model: "REPLACE_ME_MANAGER_MODEL_ID"
+    model: "deepseek-r1-distill-qwen-7b"
     temperature: 0.2
   researcher:
-    model: "REPLACE_ME_RESEARCHER_MODEL_ID"
+    model: "qwen2.5-7b-instruct-1m"
     temperature: 0.3
   tester:
-    model: "REPLACE_ME_TESTER_MODEL_ID"
+    model: "qwen2.5-7b-instruct-1m"
     temperature: 0.0
   developer:
-    model: "REPLACE_ME_DEVELOPER_MODEL_ID"
+    model: "qwen2.5-7b-instruct-1m"
     temperature: 0.1

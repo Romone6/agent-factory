@@ -1,24 +1,20 @@
 name: mindbridge
-repo_path: "C:/REPLACE/ME/PATH/TO/MINDBRIDGE"
+repo_path: "c:/Agent Workflow/mindbridge"
 
 # Strict allowlist: orchestrator blocks everything else.
 allowed_commands:
   - "git status"
   - "git diff"
   - "git log"
-  - "pnpm install"
-  - "pnpm lint"
-  - "pnpm typecheck"
-  - "pnpm test"
   - "npm install"
   - "npm run lint"
   - "npm run typecheck"
   - "npm test"
 
-install_cmd: "pnpm install"
-lint_cmd: "pnpm lint"
-typecheck_cmd: "pnpm typecheck"
-test_cmd: "pnpm test"
+install_cmd: "npm install"
+lint_cmd: "npm run lint"
+typecheck_cmd: "npm run typecheck"
+test_cmd: "npm test"
 
 deny_paths:
   - ".env"
