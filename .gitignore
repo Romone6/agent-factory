@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+artifacts/*
+!artifacts/.keep
+integrations_config.json
+.env

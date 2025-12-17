@@ -1,0 +1,25 @@
+{
+  "priority": "P1",
+  "tasks": [
+    {
+      "id": "T1",
+      "goal": "Ensure package.json exists",
+      "acceptance_checks": [
+        "pnpm test",
+        "package.json"
+      ],
+      "assigned_to": "developer",
+      "notes": "Recreate if missing."
+    },
+    {
+      "id": "T2",
+      "goal": "Implement MFA Options Beyond SMS",
+      "acceptance_checks": [
+        "pnpm test",
+        "pnpm lint"
+      ],
+      "assigned_to": "developer",
+      "notes": "Add email-based MFA as an alternative to SMS."
+    }
+  ]
+}
